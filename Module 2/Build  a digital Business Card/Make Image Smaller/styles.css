@@ -1,0 +1,26 @@
+body {
+    margin: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+
+.myimage {
+    width: 150px;
+    height: 180px;
+    
+
+}
+.card {
+    padding:20px;
+    display:flex;
+    width:400px;
+    margin: 0 auto;
+    
+    text-align: center;
+    justify-content: space-around;
+    color:#2b2839;
+    background-color: #e0aaff;
+    border-bottom: 5px solid #c0fdff;
+    border-radius: 5px;
+
+}
