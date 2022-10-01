@@ -15,8 +15,12 @@
             <li>love to sing</li>
         </ul>
         <p>Please connect with me on <a href="https://www.linkedin.com/in/rohit-kumar-065ba51b3/" target="_blank">Linkedin here</a></p>
-        <input placeholder="Enter mail..." type="text">
-        <button href="">Join newsletter</button>
+        <form name="newsletter" method="POST" data-netlify="true">
+            <label for="email">Email:
+                <input placeholder="123@example.com" id="email" name="email" type="text" />
+            </label>
+            <button type="submit">Join Newsletter</button>
+        </form>
 
         
     </body>
